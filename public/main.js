@@ -284,7 +284,14 @@ function start() {
 }
 
 let map;
-let background;
+let background = new Sprite({
+    position: {
+        x: 0,
+        y: 0
+    },
+    imageSrc: "/background2.png",
+    scale: 3
+})
 let collisionBlocks = []
 let tileW;
 let tileH;
