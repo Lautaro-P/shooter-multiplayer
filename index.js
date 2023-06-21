@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express')
 const app = express()
 
-let ticksServer = process.env.PORT || 60
+let ticksServer = process.env.TICKS || 60
 
 app.set('port', process.env.PORT || 3000)
 
