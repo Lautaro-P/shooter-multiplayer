@@ -220,7 +220,7 @@ function checkCollision(a, b) {
     return false;
 }
 
-setInterval(loop, 1000 / 60)
+setInterval(loop, 1000 / 20)
 
 function loop() {
     for (let i = 0; i < projectiles.length; i++) {
